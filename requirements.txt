@@ -1,0 +1,11 @@
+langchain
+langsmith
+langchain_groq
+langgraph
+langchain_huggingface
+langchain_community
+python-dotenv
+orjson
+requests
+streamlit
+tavily-python
