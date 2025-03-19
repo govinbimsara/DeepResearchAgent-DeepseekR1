@@ -41,7 +41,8 @@ When EXTENDING an existing summary:
     b. If it's entirely new but relevant, add a new paragraph with a smooth transition.                            
     c. If it's not relevant to the user topic, skip it.                                                            
 4. Ensure all additions are relevant to the user's topic.                                                         
-5. Verify that your final output differs from the input summary.                                                                                                                                                            
+5. Verify that your final output differs from the input summary.  
+6. No more than 1000 words may be used for the summary.                                                                                                                                                          
 < /REQUIREMENTS >
 
 < FORMATTING >
@@ -57,11 +58,11 @@ reflection_instructions = """You are an expert research assistant analyzing a su
 </GOAL>
 
 <REQUIREMENTS>
-Ensure the follow-up question is self-contained and includes necessary context for web search.
+Ensure the follow-up question is self-contained and includes necessary context for web search. Ensure the response strictly follows JSON format.
 </REQUIREMENTS>
 
 <FORMAT>
-Format your response as a JSON object with these exact keys:
+Format your response strictly as a JSON object with these exact keys:
 - knowledge_gap: Describe what information is missing or needs clarification
 - follow_up_query: Write a specific question to address this gap
 </FORMAT>
