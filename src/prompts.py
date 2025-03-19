@@ -41,8 +41,7 @@ When EXTENDING an existing summary:
     b. If it's entirely new but relevant, add a new paragraph with a smooth transition.                            
     c. If it's not relevant to the user topic, skip it.                                                            
 4. Ensure all additions are relevant to the user's topic.                                                         
-5. Verify that your final output differs from the input summary.  
-6. No more than 1000 words may be used for the summary.                                                                                                                                                          
+5. Verify that your final output differs from the input summary.                                                                                                                                                      
 < /REQUIREMENTS >
 
 < FORMATTING >
